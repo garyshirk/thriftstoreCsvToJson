@@ -15,7 +15,7 @@ def newLineAndTab(outputFile, numTabs):
 def outputStoreDataFor(outputFile, header, row, col):
 	colnum = 0
 	for col in row:
-		if colnum == 0:
+		if colnum == ID_COL:
 			newLineAndTab(outputFile, 4)
 			outputFile.write("\"" + col + "\": {")
 		newLineAndTab(outputFile, 5)
