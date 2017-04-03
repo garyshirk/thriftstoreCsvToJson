@@ -1,18 +1,34 @@
 import csv
 import sys
 
+ID_COL = 0
+STATE_COL = 6
+LAT_COL = 11
+LONG_COL = 12
+COUNTY_COL = 13
+
 def newLineAndTab(outputFile, numTabs):
 	outputFile.write("\n")
-	for num in range(0, numTabs - 1):
+	for num in range(0, numTabs):
 		outputFile.write("\t")
-	outputFile.write("END TAB")
 
-def outputLineFor(outputFile, header, row, col):
+def outputStoreDataFor(outputFile, header, row, col):
 	colnum = 0
 	for col in row:
-		outputFile.write("\"" + header[colnum] + "\": {")
-		print header[colnum], col
+		if colnum == 0:
+			newLineAndTab(outputFile, 4)
+			outputFile.write("\"" + col + "\": {")
+		newLineAndTab(outputFile, 5)
+		if colnum == ID_COL or colnum == LAT_COL or colnum == LONG_COL:
+			outputFile.write("\"" + header[colnum] + "\": " + col + ",")
+		elif colnum == COUNTY_COL:
+			outputFile.write("\"" + header[colnum] + "\": " + "\"" + col + "\"")
+		else:
+			outputFile.write("\"" + header[colnum] + "\": " + "\"" + col + "\",")
 		colnum += 1
+	# Close the current row
+	newLineAndTab(outputFile, 4)
+	outputFile.write("}")
 
 def parseCsvToJson(outputFile):
 	currentState = ""
@@ -25,24 +41,40 @@ def parseCsvToJson(outputFile):
 				header = row
 			else:
 				colnum = 0
+				stateChanged = False
 				for col in row:
-					if colnum == 6:
+					if colnum == STATE_COL:
 						rowState = col
 						if currentState != rowState:
+							stateChanged = True
+							# Don't close state if this is very first time through loop
+							if currentState != "":
+								# Close the county
+								newLineAndTab(outputFile, 3)
+								outputFile.write("}")
+								# Close the state
+								newLineAndTab(outputFile, 2)
+								outputFile.write("},")
 							currentState = rowState
+							newLineAndTab(outputFile, 2)
 							outputFile.write("\"" + currentState + "\": {")
-							newLineAndTab(outputFile, 3)
-							print "write new state: " + currentState
-					if colnum == 13:
+					if colnum == COUNTY_COL:
 						rowCounty = col
 						if currentCounty != rowCounty:
+							# Close the county only if state did not change,
+							# otherwise country already got closed above
+							if stateChanged == False:
+								newLineAndTab(outputFile, 3)
+								outputFile.write("},")
 							currentCounty = rowCounty
+							newLineAndTab(outputFile, 3)
 							outputFile.write("\"" + currentCounty + "\": {")
-							newLineAndTab(outputFile, 4)
-							print "write new county: " + currentCounty
+						else:
+							# Since county didn't change, need "," before next store is added
+							outputFile.write(",")
 					colnum += 1
 				colnum = 0
-				outputLineFor(outputFile, header, row, col)
+				outputStoreDataFor(outputFile, header, row, col)
 			rownum += 1
 	readFile.close()
 
@@ -51,16 +83,26 @@ outputFile = open('thriftstores.json', 'w')
 
 # {
 #	thriftstores: {
-outputFile.write("{\n\t\"thriftstores:\"  {")
-newLineAndTab(outputFile, 2)
+outputFile.write("{")
+newLineAndTab(outputFile, 1)
+outputFile.write("\"thriftstores\":  {")
 
 # Convert csv to json
 parseCsvToJson(outputFile)
 
-#	}
-#}
+# Close the last county
+newLineAndTab(outputFile, 3)
+outputFile.write("}")
+
+# Close the last state
+newLineAndTab(outputFile, 2)
+outputFile.write("}")
+
+# Close "thriftstores"
 newLineAndTab(outputFile, 1)
-outputFile.write("}\n")
+outputFile.write("}")
+
+# Close the overall json file
 newLineAndTab(outputFile, 0)
 outputFile.write("}\n")
 
