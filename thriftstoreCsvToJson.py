@@ -1,21 +1,6 @@
 import csv
 import sys
 
-bizID = ""
-bizCat = ""
-bizCatSub = ""
-bizName = ""
-bizAddr = ""
-bizCity = ""
-bizState = ""
-bizZip = ""
-bizPhone = ""
-bizEmail = ""
-bizURL = ""
-locLat = ""
-locLong = ""
-locCounty = ""
-
 def newLineAndTab(outputFile, numTabs):
 	outputFile.write("\n")
 	for num in range(0, numTabs - 1):
