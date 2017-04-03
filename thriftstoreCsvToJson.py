@@ -68,7 +68,7 @@ def parseCsvToJson(outputFile):
 								outputFile.write("},")
 							currentCounty = rowCounty
 							newLineAndTab(outputFile, 3)
-							outputFile.write("\"" + currentCounty + "\": {")
+							outputFile.write("\"" + currentCounty.lower() + "\": {")
 						else:
 							# Since county didn't change, need "," before next store is added
 							outputFile.write(",")
