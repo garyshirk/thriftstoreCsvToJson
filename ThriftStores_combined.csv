@@ -5,6 +5,10 @@ bizID;bizCat;bizCatSub;bizName;bizAddr;bizCity;bizState;bizZip;bizPhone;bizEmail
 5;Thrift Shops;Thrift Stores;Paw Prints Thrift Shop;6040 Highway 179;Sedona;AZ;86351;(928)284-4635;;;34.7784;-111.8031;Yavapai
 6;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;AJ and Lisa's Thrift Store;2141 South Chester Avenue;Bakersfield;CA;93304;(661)832-0026;;;35.3396;-119.0236;Kern
 28;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Atlantic Center Mini Mall;6607 Atlantic Avenue;Bell;CA;90201;(323)773-3697;;;33.9704;-118.1852;Los Angeles
+200;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Goodwill Central;464 California St;San Francisco;CA;94104;;;;37.7933;-122.4022;San Francisco
+201;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Goodwill East;100 Mission St;San Francisco;CA;94105;;;;37.7925;-122.3945;San Francisco
+203;;;Goodwill West;850 La Playa St;San Francisco;CA;94121;;;;37.7724;-122.5094;San Francisco
+204;;;Goodwill South;2656 Ocean Ave;San Francisco;CA;94132;;;;37.7322;-122.474;San Francisco
 25;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Mister Money the USA;111 West Monroe Drive;Fort Collins;CO;80525;(970)204-7800;;;40.5065;-105.0136;Larimer
 40;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Cycle Central;1021 South Lincoln Avenue;Loveland;CO;80537;(970)461-9466;;www.cyclecentralinc.com;40.3726;-105.1330;Larimer
 8;Thrift Shops;Used Furniture Dealers;Village Antiques;1340 Main Street;Coventry;CT;06238;(860)742-5701;;;41.7832;-72.3394;Tolland
@@ -14,6 +18,23 @@ bizID;bizCat;bizCatSub;bizName;bizAddr;bizCity;bizState;bizZip;bizPhone;bizEmail
 13;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;East Coast Furniture CO;1319 North Federal Highway;Delray Beach;FL;33483;(561)265-3740;;;26.4557;-80.0677;Palm Beach
 11;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Best Value Pawn;2817 South USHighway 1;Fort Pierce;FL;34982;(772)467-1199;;;27.3793;-80.3175;Saint Lucie
 16;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;America's Thrift Store;3870 Lawrenceville Highway;Lawrenceville;GA;30044;(770)996-5900;;;33.9230;-84.0730;Gwinnett
+300;;;Goodwill Hoffman Estates;2535 W Golf Rd;Hoffman Estates;IL;60169;;;;42.047802;-88.1416922;Cook
+301;;;Goodwill Des Plaines;1521 Lee St;Des Plaines;IL;60018;;;;42.02491;-87.891427;Cook
+302;;;Savers;780 W Dundee Rd;Arlington Heights;IL;60004;;;;42.13845;-88.06178;Cook
+303;;;Goodwill;1201 W Washington Blvd;Chicago;IL;60607;;;;41.8828;-87.657;Cook
+304;;;Salvation Army;509 N Union;Chicago;IL;60654;;;;46.288;-96.07821;Cook
+305;;;Goodwill;300 North LaSalle, 4925;Chicago;IL;60654;;;;41.8883;-87.63327;Cook
+306;;;Goodwill;1420 IL-59, Bartlett;;IL;60103;;;;41.9542;-88.2062;Cook
+307;;;Savers;1231 N Gary Ave;Carol Stream;IL;60188;;;;41.9354;-88.117709;Dupage
+308;;;Goodwill Elgin;260 Randall Rd;Elgin;IL;60123;;;;41.989998;-88.3434799;Kane
+309;;;Goodwill;7777 Miller Rd;Carpentersville;IL;60110;;;;41.121406;-88.3390395;Kane
+310;;;Sparrow’s Nest;357 Townline Rd;Mundelein;IL;60060;;;;42.24043;-87.995779;Lake
+311;;;Goodwill Algonquin;1430 E Algonquin Rd;Algonquin;IL;60102;;;;42.16015;-88.27397;McHenry
+312;;;Savers;230 W Virginia St;Crystal Lake;IL;60014;;;;42.2292;-88.32848;McHenry
+313;;;Sparrow’s Nest;781 S Randall Rd;Algonquin;IL;60102;;;;42.16121;-88.335488;McHenry
+314;;;Sparrows Nest;3714 W Elm St;McHenry;IL;60050;;;;42.34574;-88.27088;McHenry
+315;;;Sparrows Nest;N, 380 Northwest Hwy;Cary;IL;60013;;;;42.2151499;-88.2502919;McHenry
+316;;;Goodwill;11900 Kreutzer Rd;Huntley;IL;60142;;;;42.1542828;-88.4283258;McHenry
 19;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Abe's & Hanks Pawn Shop;2134 Lee Street;Alexandria;LA;71301;(318)448-3801;;;31.2655;-92.4705;Rapides
 18;Thrift Shops;Clothing & Accessories Consignment & Resale;El Vaquero Western Wear;4315 Kenilworth Avenue;Bladensburg;MD;20710;(301)277-5096;;;38.9421;-76.9259;Prince Georges
 12;Thrift Shops;Resale- Second Hand- & Used Merchandise Stores;Midway Machinery Inc;1125 Covell Avenue Northwest;Grand Rapids;MI;49504;(616)791-4880;;;42.9816;-85.7081;Kent

@@ -33,7 +33,7 @@ def outputStoreDataFor(outputFile, header, row, col):
 def parseCsvToJson(outputFile):
 	currentState = ""
 	currentCounty = ""
-	with open('Thrift_Shops_Sample_Test.csv', 'rb') as readFile:
+	with open('ThriftStores_combined.csv', 'rb') as readFile:
 		reader = csv.reader(readFile, delimiter=';')
 		rownum = 0
 		for row in reader:
