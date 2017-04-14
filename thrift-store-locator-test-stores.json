@@ -1,3 +1,1176 @@
 {
-  "error" : "Auth token is expired"
+  "favorites" : {
+    "9ng14lQjDoeIvvE4uEZb4hEAfPt2" : {
+      "CA" : {
+        "san francisco" : {
+          "200" : 200,
+          "201" : 201
+        }
+      },
+      "IL" : {
+        "cook" : {
+          "301" : 301
+        },
+        "mchenry" : {
+          "313" : 313
+        }
+      }
+    },
+    "IGPM7FBTRVewdKMHItXkE9geLpw1" : {
+      "CA" : {
+        "san francisco" : {
+          "200" : 200,
+          "201" : 201
+        }
+      },
+      "IL" : {
+        "cook" : {
+          "301" : 301
+        },
+        "mchenry" : {
+          "312" : 312
+        }
+      }
+    },
+    "nT9zIJ4NgUboPQCGryX0Ajyc3nx1" : {
+      "CA" : {
+        "san francisco" : {
+          "200" : 200,
+          "201" : 201
+        }
+      },
+      "FL" : {
+        "hillsborough" : {
+          "30" : 30
+        }
+      },
+      "IL" : {
+        "cook" : {
+          "302" : 302
+        },
+        "dupage" : {
+          "307" : 307
+        },
+        "mchenry" : {
+          "316" : 316
+        }
+      }
+    }
+  },
+  "thriftstores" : {
+    "AL" : {
+      "jefferson" : {
+        "33" : {
+          "bizAddr" : "1711 9th Avenue North",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Bessemer",
+          "bizEmail" : "",
+          "bizID" : 33,
+          "bizName" : "Title Cash",
+          "bizPhone" : "(205)425-7313",
+          "bizState" : "AL",
+          "bizURL" : "www.titlecash.com",
+          "bizZip" : "35020",
+          "locCounty" : "Jefferson",
+          "locLat" : 33.4077,
+          "locLong" : -86.9494
+        }
+      },
+      "lauderdale" : {
+        "10" : {
+          "bizAddr" : "1587 Darby Drive",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Florence",
+          "bizEmail" : "",
+          "bizID" : 10,
+          "bizName" : "E-Z Cash",
+          "bizPhone" : "(256)767-0044",
+          "bizState" : "AL",
+          "bizURL" : "",
+          "bizZip" : "35630",
+          "locCounty" : "Lauderdale",
+          "locLat" : 34.8931,
+          "locLong" : -87.6376
+        }
+      }
+    },
+    "AZ" : {
+      "coconino" : {
+        "9" : {
+          "bizAddr" : "2225 North Steves Boulevard",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Flagstaff",
+          "bizEmail" : "",
+          "bizID" : 9,
+          "bizName" : "Goodwill Industries of Northern Arizona",
+          "bizPhone" : "(928)526-9260",
+          "bizState" : "AZ",
+          "bizURL" : "www.goodwill.org",
+          "bizZip" : "86001",
+          "locCounty" : "Coconino",
+          "locLat" : 35.1888,
+          "locLong" : -111.6603
+        }
+      },
+      "yavapai" : {
+        "5" : {
+          "bizAddr" : "6040 Highway 179",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Thrift Stores",
+          "bizCity" : "Sedona",
+          "bizEmail" : "",
+          "bizID" : 5,
+          "bizName" : "Paw Prints Thrift Shop",
+          "bizPhone" : "(928)284-4635",
+          "bizState" : "AZ",
+          "bizURL" : "",
+          "bizZip" : "86351",
+          "locCounty" : "Yavapai",
+          "locLat" : 34.7784,
+          "locLong" : -111.8031
+        }
+      }
+    },
+    "CA" : {
+      "kern" : {
+        "6" : {
+          "bizAddr" : "2141 South Chester Avenue",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Bakersfield",
+          "bizEmail" : "",
+          "bizID" : 6,
+          "bizName" : "AJ and Lisa's Thrift Store",
+          "bizPhone" : "(661)832-0026",
+          "bizState" : "CA",
+          "bizURL" : "",
+          "bizZip" : "93304",
+          "locCounty" : "Kern",
+          "locLat" : 35.3396,
+          "locLong" : -119.0236
+        }
+      },
+      "los angeles" : {
+        "28" : {
+          "bizAddr" : "6607 Atlantic Avenue",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Bell",
+          "bizEmail" : "",
+          "bizID" : 28,
+          "bizName" : "Atlantic Center Mini Mall",
+          "bizPhone" : "(323)773-3697",
+          "bizState" : "CA",
+          "bizURL" : "",
+          "bizZip" : "90201",
+          "locCounty" : "Los Angeles",
+          "locLat" : 33.9704,
+          "locLong" : -118.1852
+        }
+      },
+      "san francisco" : {
+        "200" : {
+          "bizAddr" : "464 California St",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "San Francisco",
+          "bizEmail" : "",
+          "bizID" : 200,
+          "bizName" : "Goodwill Central",
+          "bizPhone" : "",
+          "bizState" : "CA",
+          "bizURL" : "",
+          "bizZip" : "94104",
+          "locCounty" : "San Francisco",
+          "locLat" : 37.7933,
+          "locLong" : -122.4022
+        },
+        "201" : {
+          "bizAddr" : "100 Mission St",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "San Francisco",
+          "bizEmail" : "",
+          "bizID" : 201,
+          "bizName" : "Goodwill East",
+          "bizPhone" : "",
+          "bizState" : "CA",
+          "bizURL" : "",
+          "bizZip" : "94105",
+          "locCounty" : "San Francisco",
+          "locLat" : 37.7925,
+          "locLong" : -122.3945
+        },
+        "203" : {
+          "bizAddr" : "850 La Playa St",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "San Francisco",
+          "bizEmail" : "",
+          "bizID" : 203,
+          "bizName" : "Goodwill West",
+          "bizPhone" : "",
+          "bizState" : "CA",
+          "bizURL" : "",
+          "bizZip" : "94121",
+          "locCounty" : "San Francisco",
+          "locLat" : 37.7724,
+          "locLong" : -122.5094
+        },
+        "204" : {
+          "bizAddr" : "2656 Ocean Ave",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "San Francisco",
+          "bizEmail" : "",
+          "bizID" : 204,
+          "bizName" : "Goodwill South",
+          "bizPhone" : "",
+          "bizState" : "CA",
+          "bizURL" : "",
+          "bizZip" : "94132",
+          "locCounty" : "San Francisco",
+          "locLat" : 37.7322,
+          "locLong" : -122.474
+        }
+      }
+    },
+    "CO" : {
+      "larimer" : {
+        "25" : {
+          "bizAddr" : "111 West Monroe Drive",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Fort Collins",
+          "bizEmail" : "",
+          "bizID" : 25,
+          "bizName" : "Mister Money the USA",
+          "bizPhone" : "(970)204-7800",
+          "bizState" : "CO",
+          "bizURL" : "",
+          "bizZip" : "80525",
+          "locCounty" : "Larimer",
+          "locLat" : 40.5065,
+          "locLong" : -105.0136
+        },
+        "40" : {
+          "bizAddr" : "1021 South Lincoln Avenue",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Loveland",
+          "bizEmail" : "",
+          "bizID" : 40,
+          "bizName" : "Cycle Central",
+          "bizPhone" : "(970)461-9466",
+          "bizState" : "CO",
+          "bizURL" : "www.cyclecentralinc.com",
+          "bizZip" : "80537",
+          "locCounty" : "Larimer",
+          "locLat" : 40.3726,
+          "locLong" : -105.133
+        }
+      }
+    },
+    "CT" : {
+      "tolland" : {
+        "8" : {
+          "bizAddr" : "1340 Main Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Used Furniture Dealers",
+          "bizCity" : "Coventry",
+          "bizEmail" : "",
+          "bizID" : 8,
+          "bizName" : "Village Antiques",
+          "bizPhone" : "(860)742-5701",
+          "bizState" : "CT",
+          "bizURL" : "",
+          "bizZip" : "06238",
+          "locCounty" : "Tolland",
+          "locLat" : 41.7832,
+          "locLong" : -72.3394
+        }
+      }
+    },
+    "FL" : {
+      "escambia" : {
+        "39" : {
+          "bizAddr" : "2600 North T Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Used Furniture Dealers",
+          "bizCity" : "Pensacola",
+          "bizEmail" : "",
+          "bizID" : 39,
+          "bizName" : "A & K New & Used Furniture",
+          "bizPhone" : "(850)438-0655",
+          "bizState" : "FL",
+          "bizURL" : "",
+          "bizZip" : "32505",
+          "locCounty" : "Escambia",
+          "locLat" : 30.456,
+          "locLong" : -87.2602
+        }
+      },
+      "hillsborough" : {
+        "30" : {
+          "bizAddr" : "5123 North Nebraska Avenue",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Tampa",
+          "bizEmail" : "",
+          "bizID" : 30,
+          "bizName" : "EZ Pawn",
+          "bizPhone" : "(813)234-7296",
+          "bizState" : "FL",
+          "bizURL" : "www.ezpawn.com",
+          "bizZip" : "33603",
+          "locCounty" : "Hillsborough",
+          "locLat" : 27.9827,
+          "locLong" : -82.4594
+        }
+      },
+      "nassau" : {
+        "21" : {
+          "bizAddr" : "1014 South 7th Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Fernandina Beach",
+          "bizEmail" : "",
+          "bizID" : 21,
+          "bizName" : "Buy-Gones",
+          "bizPhone" : "(904)277-4071",
+          "bizState" : "FL",
+          "bizURL" : "",
+          "bizZip" : "32034",
+          "locCounty" : "Nassau",
+          "locLat" : 30.6056,
+          "locLong" : -81.5268
+        }
+      },
+      "palm beach" : {
+        "13" : {
+          "bizAddr" : "1319 North Federal Highway",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Delray Beach",
+          "bizEmail" : "",
+          "bizID" : 13,
+          "bizName" : "East Coast Furniture CO",
+          "bizPhone" : "(561)265-3740",
+          "bizState" : "FL",
+          "bizURL" : "",
+          "bizZip" : "33483",
+          "locCounty" : "Palm Beach",
+          "locLat" : 26.4557,
+          "locLong" : -80.0677
+        }
+      },
+      "saint lucie" : {
+        "11" : {
+          "bizAddr" : "2817 South USHighway 1",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Fort Pierce",
+          "bizEmail" : "",
+          "bizID" : 11,
+          "bizName" : "Best Value Pawn",
+          "bizPhone" : "(772)467-1199",
+          "bizState" : "FL",
+          "bizURL" : "",
+          "bizZip" : "34982",
+          "locCounty" : "Saint Lucie",
+          "locLat" : 27.3793,
+          "locLong" : -80.3175
+        }
+      }
+    },
+    "GA" : {
+      "gwinnett" : {
+        "16" : {
+          "bizAddr" : "3870 Lawrenceville Highway",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Lawrenceville",
+          "bizEmail" : "",
+          "bizID" : 16,
+          "bizName" : "America's Thrift Store",
+          "bizPhone" : "(770)996-5900",
+          "bizState" : "GA",
+          "bizURL" : "",
+          "bizZip" : "30044",
+          "locCounty" : "Gwinnett",
+          "locLat" : 33.923,
+          "locLong" : -84.073
+        }
+      }
+    },
+    "IL" : {
+      "cook" : {
+        "300" : {
+          "bizAddr" : "2535 W Golf Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Hoffman Estates",
+          "bizEmail" : "",
+          "bizID" : 300,
+          "bizName" : "Goodwill Hoffman Estates",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60169",
+          "locCounty" : "Cook",
+          "locLat" : 42.047802,
+          "locLong" : -88.1416922
+        },
+        "301" : {
+          "bizAddr" : "1521 Lee St",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Des Plaines",
+          "bizEmail" : "",
+          "bizID" : 301,
+          "bizName" : "Goodwill Des Plaines",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60018",
+          "locCounty" : "Cook",
+          "locLat" : 42.02491,
+          "locLong" : -87.891427
+        },
+        "302" : {
+          "bizAddr" : "780 W Dundee Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Arlington Heights",
+          "bizEmail" : "",
+          "bizID" : 302,
+          "bizName" : "Savers",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60004",
+          "locCounty" : "Cook",
+          "locLat" : 42.13845,
+          "locLong" : -88.06178
+        },
+        "303" : {
+          "bizAddr" : "1201 W Washington Blvd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Chicago",
+          "bizEmail" : "",
+          "bizID" : 303,
+          "bizName" : "Goodwill",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60607",
+          "locCounty" : "Cook",
+          "locLat" : 41.8828,
+          "locLong" : -87.657
+        },
+        "304" : {
+          "bizAddr" : "509 N Union",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Chicago",
+          "bizEmail" : "",
+          "bizID" : 304,
+          "bizName" : "Salvation Army",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60654",
+          "locCounty" : "Cook",
+          "locLat" : 46.288,
+          "locLong" : -96.07821
+        },
+        "305" : {
+          "bizAddr" : "300 North LaSalle, 4925",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Chicago",
+          "bizEmail" : "",
+          "bizID" : 305,
+          "bizName" : "Goodwill",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60654",
+          "locCounty" : "Cook",
+          "locLat" : 41.8883,
+          "locLong" : -87.63327
+        },
+        "306" : {
+          "bizAddr" : "1420 IL-59, Bartlett",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "",
+          "bizEmail" : "",
+          "bizID" : 306,
+          "bizName" : "Goodwill",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60103",
+          "locCounty" : "Cook",
+          "locLat" : 41.9542,
+          "locLong" : -88.2062
+        }
+      },
+      "dupage" : {
+        "307" : {
+          "bizAddr" : "1231 N Gary Ave",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Carol Stream",
+          "bizEmail" : "",
+          "bizID" : 307,
+          "bizName" : "Savers",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60188",
+          "locCounty" : "Dupage",
+          "locLat" : 41.9354,
+          "locLong" : -88.117709
+        }
+      },
+      "kane" : {
+        "308" : {
+          "bizAddr" : "260 Randall Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Elgin",
+          "bizEmail" : "",
+          "bizID" : 308,
+          "bizName" : "Goodwill Elgin",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60123",
+          "locCounty" : "Kane",
+          "locLat" : 41.989998,
+          "locLong" : -88.3434799
+        },
+        "309" : {
+          "bizAddr" : "7777 Miller Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Carpentersville",
+          "bizEmail" : "",
+          "bizID" : 309,
+          "bizName" : "Goodwill",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60110",
+          "locCounty" : "Kane",
+          "locLat" : 41.121406,
+          "locLong" : -88.3390395
+        }
+      },
+      "lake" : {
+        "310" : {
+          "bizAddr" : "357 Townline Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Mundelein",
+          "bizEmail" : "",
+          "bizID" : 310,
+          "bizName" : "Sparrow’s Nest",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60060",
+          "locCounty" : "Lake",
+          "locLat" : 42.24043,
+          "locLong" : -87.995779
+        }
+      },
+      "mchenry" : {
+        "311" : {
+          "bizAddr" : "1430 E Algonquin Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Algonquin",
+          "bizEmail" : "",
+          "bizID" : 311,
+          "bizName" : "Goodwill Algonquin",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60102",
+          "locCounty" : "McHenry",
+          "locLat" : 42.16015,
+          "locLong" : -88.27397
+        },
+        "312" : {
+          "bizAddr" : "230 W Virginia St",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Crystal Lake",
+          "bizEmail" : "",
+          "bizID" : 312,
+          "bizName" : "Savers",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60014",
+          "locCounty" : "McHenry",
+          "locLat" : 42.2292,
+          "locLong" : -88.32848
+        },
+        "313" : {
+          "bizAddr" : "781 S Randall Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Algonquin",
+          "bizEmail" : "",
+          "bizID" : 313,
+          "bizName" : "Sparrow’s Nest",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60102",
+          "locCounty" : "McHenry",
+          "locLat" : 42.16121,
+          "locLong" : -88.335488
+        },
+        "314" : {
+          "bizAddr" : "3714 W Elm St",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "McHenry",
+          "bizEmail" : "",
+          "bizID" : 314,
+          "bizName" : "Sparrows Nest",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60050",
+          "locCounty" : "McHenry",
+          "locLat" : 42.34574,
+          "locLong" : -88.27088
+        },
+        "315" : {
+          "bizAddr" : "N, 380 Northwest Hwy",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Cary",
+          "bizEmail" : "",
+          "bizID" : 315,
+          "bizName" : "Sparrows Nest",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60013",
+          "locCounty" : "McHenry",
+          "locLat" : 42.2151499,
+          "locLong" : -88.2502919
+        },
+        "316" : {
+          "bizAddr" : "11900 Kreutzer Rd",
+          "bizCat" : "",
+          "bizCatSub" : "",
+          "bizCity" : "Huntley",
+          "bizEmail" : "",
+          "bizID" : 316,
+          "bizName" : "Goodwill",
+          "bizPhone" : "",
+          "bizState" : "IL",
+          "bizURL" : "",
+          "bizZip" : "60142",
+          "locCounty" : "McHenry",
+          "locLat" : 42.1542828,
+          "locLong" : -88.4283258
+        }
+      }
+    },
+    "LA" : {
+      "rapides" : {
+        "19" : {
+          "bizAddr" : "2134 Lee Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Alexandria",
+          "bizEmail" : "",
+          "bizID" : 19,
+          "bizName" : "Abe's & Hanks Pawn Shop",
+          "bizPhone" : "(318)448-3801",
+          "bizState" : "LA",
+          "bizURL" : "",
+          "bizZip" : "71301",
+          "locCounty" : "Rapides",
+          "locLat" : 31.2655,
+          "locLong" : -92.4705
+        }
+      }
+    },
+    "MD" : {
+      "prince georges" : {
+        "18" : {
+          "bizAddr" : "4315 Kenilworth Avenue",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Clothing & Accessories Consignment & Resale",
+          "bizCity" : "Bladensburg",
+          "bizEmail" : "",
+          "bizID" : 18,
+          "bizName" : "El Vaquero Western Wear",
+          "bizPhone" : "(301)277-5096",
+          "bizState" : "MD",
+          "bizURL" : "",
+          "bizZip" : "20710",
+          "locCounty" : "Prince Georges",
+          "locLat" : 38.9421,
+          "locLong" : -76.9259
+        }
+      }
+    },
+    "MI" : {
+      "kent" : {
+        "12" : {
+          "bizAddr" : "1125 Covell Avenue Northwest",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Grand Rapids",
+          "bizEmail" : "",
+          "bizID" : 12,
+          "bizName" : "Midway Machinery Inc",
+          "bizPhone" : "(616)791-4880",
+          "bizState" : "MI",
+          "bizURL" : "",
+          "bizZip" : "49504",
+          "locCounty" : "Kent",
+          "locLat" : 42.9816,
+          "locLong" : -85.7081
+        }
+      },
+      "livingston" : {
+        "23" : {
+          "bizAddr" : "1684 Hydralic Drive",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Howell",
+          "bizEmail" : "",
+          "bizID" : 23,
+          "bizName" : "BD Electrical Inc",
+          "bizPhone" : "(734)449-0602",
+          "bizState" : "MI",
+          "bizURL" : "",
+          "bizZip" : "48855",
+          "locCounty" : "Livingston",
+          "locLat" : 42.6752,
+          "locLong" : -83.8893
+        }
+      },
+      "montcalm" : {
+        "36" : {
+          "bizAddr" : "6772 North Lafayette Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Greenville",
+          "bizEmail" : "",
+          "bizID" : 36,
+          "bizName" : "Goodwill Stores",
+          "bizPhone" : "(616)754-0277",
+          "bizState" : "MI",
+          "bizURL" : "",
+          "bizZip" : "48838",
+          "locCounty" : "Montcalm",
+          "locLat" : 43.1872,
+          "locLong" : -85.2594
+        }
+      }
+    },
+    "MN" : {
+      "crow wing" : {
+        "17" : {
+          "bizAddr" : "3403 West Lake Road",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Pequot Lakes",
+          "bizEmail" : "",
+          "bizID" : 17,
+          "bizName" : "Fast Cash",
+          "bizPhone" : "(218)568-6969",
+          "bizState" : "MN",
+          "bizURL" : "",
+          "bizZip" : "56472",
+          "locCounty" : "Crow Wing",
+          "locLat" : 46.6832,
+          "locLong" : -94.2515
+        }
+      }
+    },
+    "MO" : {
+      "saint louis city" : {
+        "24" : {
+          "bizAddr" : "3901 North Kingshighway Boulevard",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Used Furniture Dealers",
+          "bizCity" : "Saint Louis",
+          "bizEmail" : "",
+          "bizID" : 24,
+          "bizName" : "Fiesta's Office Furniture",
+          "bizPhone" : "(314)385-7037",
+          "bizState" : "MO",
+          "bizURL" : "www.fiestacorp.com",
+          "bizZip" : "63115",
+          "locCounty" : "Saint Louis City",
+          "locLat" : 38.6786,
+          "locLong" : -90.2397
+        }
+      }
+    },
+    "MT" : {
+      "roosevelt" : {
+        "3" : {
+          "bizAddr" : "107 East Anaconda Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Wolf Point",
+          "bizEmail" : "",
+          "bizID" : 3,
+          "bizName" : "Greens Second Hand Store",
+          "bizPhone" : "(406)653-1616",
+          "bizState" : "MT",
+          "bizURL" : "",
+          "bizZip" : "59201",
+          "locCounty" : "Roosevelt",
+          "locLat" : 48.3098,
+          "locLong" : -105.5886
+        }
+      }
+    },
+    "NC" : {
+      "lee" : {
+        "15" : {
+          "bizAddr" : "255 Market Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Sanford",
+          "bizEmail" : "",
+          "bizID" : 15,
+          "bizName" : "Brother Al's Thrift Store",
+          "bizPhone" : "(919)776-1037",
+          "bizState" : "NC",
+          "bizURL" : "",
+          "bizZip" : "27330",
+          "locCounty" : "Lee",
+          "locLat" : 35.493,
+          "locLong" : -79.1765
+        }
+      },
+      "wilkes" : [ null, {
+        "bizAddr" : "1821 USHighway 421",
+        "bizCat" : "Thrift Shops",
+        "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+        "bizCity" : "Wilkesboro",
+        "bizEmail" : "",
+        "bizID" : 1,
+        "bizName" : "Goodwill Industries",
+        "bizPhone" : "(336)838-5442",
+        "bizState" : "NC",
+        "bizURL" : "",
+        "bizZip" : "28697",
+        "locCounty" : "Wilkes",
+        "locLat" : 36.1256,
+        "locLong" : -81.1459
+      } ]
+    },
+    "NM" : {
+      "los alamos" : {
+        "34" : {
+          "bizAddr" : "1505 15th Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Los Alamos",
+          "bizEmail" : "",
+          "bizID" : 34,
+          "bizName" : "Casa Mesita Thrift Shop",
+          "bizPhone" : "(505)662-7235",
+          "bizState" : "NM",
+          "bizURL" : "",
+          "bizZip" : "87544",
+          "locCounty" : "Los Alamos",
+          "locLat" : 35.8375,
+          "locLong" : -106.349
+        }
+      }
+    },
+    "NV" : {
+      "carson city" : {
+        "37" : {
+          "bizAddr" : "411 Hot Springs Road",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Carson City",
+          "bizEmail" : "",
+          "bizID" : 37,
+          "bizName" : "Classy Seconds Thrift Shop",
+          "bizPhone" : "(775)841-7081",
+          "bizState" : "NV",
+          "bizURL" : "",
+          "bizZip" : "89706",
+          "locCounty" : "Carson City",
+          "locLat" : 39.183,
+          "locLong" : -119.6053
+        }
+      },
+      "clark" : {
+        "32" : {
+          "bizAddr" : "2900 Palomino Lane",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Salvation Army",
+          "bizCity" : "Las Vegas",
+          "bizEmail" : "",
+          "bizID" : 32,
+          "bizName" : "Salvation Army",
+          "bizPhone" : "(702)870-4430",
+          "bizState" : "NV",
+          "bizURL" : "www.salvationarmy.org",
+          "bizZip" : "89107",
+          "locCounty" : "Clark",
+          "locLat" : 36.1701,
+          "locLong" : -115.2087
+        }
+      }
+    },
+    "OK" : {
+      "bryan" : {
+        "22" : {
+          "bizAddr" : "9303 USHighway 70",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Durant",
+          "bizEmail" : "",
+          "bizID" : 22,
+          "bizName" : "Flower's Ideal Warehouse",
+          "bizPhone" : "(580)920-1035",
+          "bizState" : "OK",
+          "bizURL" : "",
+          "bizZip" : "74701",
+          "locCounty" : "Bryan",
+          "locLat" : 34.0185,
+          "locLong" : -96.3864
+        }
+      }
+    },
+    "PA" : {
+      "delaware" : {
+        "2" : {
+          "bizAddr" : "Parker & Macdde Boulevard",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Holmes",
+          "bizEmail" : "",
+          "bizID" : 2,
+          "bizName" : "Once & Again Consignment Boutique",
+          "bizPhone" : "(610)237-7178",
+          "bizState" : "PA",
+          "bizURL" : "",
+          "bizZip" : "19043",
+          "locCounty" : "Delaware",
+          "locLat" : 39.9003,
+          "locLong" : -75.3086
+        }
+      }
+    },
+    "SC" : {
+      "york" : {
+        "27" : {
+          "bizAddr" : "701 North Anderson Road",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Rock Hill",
+          "bizEmail" : "",
+          "bizID" : 27,
+          "bizName" : "A Smart Choice Title Loans",
+          "bizPhone" : "(803)980-5044",
+          "bizState" : "SC",
+          "bizURL" : "www.smartchoicetitleloans.com",
+          "bizZip" : "29730",
+          "locCounty" : "York",
+          "locLat" : 34.8891,
+          "locLong" : -81.0214
+        }
+      }
+    },
+    "TN" : {
+      "campbell" : {
+        "29" : {
+          "bizAddr" : "1552 5th Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Jellico",
+          "bizEmail" : "",
+          "bizID" : 29,
+          "bizName" : "Jellico Fast Cash",
+          "bizPhone" : "(423)784-2714",
+          "bizState" : "TN",
+          "bizURL" : "",
+          "bizZip" : "37762",
+          "locCounty" : "Campbell",
+          "locLat" : 36.542,
+          "locLong" : -84.1167
+        }
+      },
+      "coffee" : {
+        "31" : {
+          "bizAddr" : "193 Relco Drive",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Manchester",
+          "bizEmail" : "",
+          "bizID" : 31,
+          "bizName" : "Fast Cash Check Advance",
+          "bizPhone" : "(931)728-2223",
+          "bizState" : "TN",
+          "bizURL" : "",
+          "bizZip" : "37355",
+          "locCounty" : "Coffee",
+          "locLat" : 35.5,
+          "locLong" : -86.0789
+        }
+      }
+    },
+    "TX" : {
+      "bexar" : {
+        "14" : {
+          "bizAddr" : "2131 Southwest Military Drive",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "San Antonio",
+          "bizEmail" : "",
+          "bizID" : 14,
+          "bizName" : "Action Pawn",
+          "bizPhone" : "(210)927-5755",
+          "bizState" : "TX",
+          "bizURL" : "",
+          "bizZip" : "78224",
+          "locCounty" : "Bexar",
+          "locLat" : 29.3141,
+          "locLong" : -98.5387
+        }
+      }
+    },
+    "UT" : {
+      "salt lake" : {
+        "38" : {
+          "bizAddr" : "727 East 9400 South",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Sandy",
+          "bizEmail" : "",
+          "bizID" : 38,
+          "bizName" : "The Church of Jesus Christ of Latter-Day Saints - Welfare Services Department- Deseret Indust",
+          "bizPhone" : "(801)255-8399",
+          "bizState" : "UT",
+          "bizURL" : "",
+          "bizZip" : "84094",
+          "locCounty" : "Salt Lake",
+          "locLat" : 40.5705,
+          "locLong" : -111.8627
+        }
+      }
+    },
+    "VA" : {
+      "fairfax" : {
+        "26" : {
+          "bizAddr" : "6110 Arlington Boulevard",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Used Clothing Retail",
+          "bizCity" : "Falls Church",
+          "bizEmail" : "",
+          "bizID" : 26,
+          "bizName" : "Gallo Willston",
+          "bizPhone" : "(703)237-4590",
+          "bizState" : "VA",
+          "bizURL" : "",
+          "bizZip" : "22044",
+          "locCounty" : "Fairfax",
+          "locLat" : 38.8591,
+          "locLong" : -77.1567
+        }
+      },
+      "virginia beach city" : {
+        "35" : {
+          "bizAddr" : "906 South Lynnhaven Road",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Virginia Beach",
+          "bizEmail" : "",
+          "bizID" : 35,
+          "bizName" : "Second Chance Thrift Store",
+          "bizPhone" : "(757)368-9922",
+          "bizState" : "VA",
+          "bizURL" : "",
+          "bizZip" : "23452",
+          "locCounty" : "Virginia Beach City",
+          "locLat" : 36.8421,
+          "locLong" : -76.0932
+        }
+      },
+      "winchester city" : {
+        "7" : {
+          "bizAddr" : "2446 Valley Avenue",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Winchester",
+          "bizEmail" : "",
+          "bizID" : 7,
+          "bizName" : "Kids Company & More",
+          "bizPhone" : "(540)662-4660",
+          "bizState" : "VA",
+          "bizURL" : "",
+          "bizZip" : "22601",
+          "locCounty" : "Winchester City",
+          "locLat" : 39.2077,
+          "locLong" : -78.2566
+        }
+      }
+    },
+    "WA" : {
+      "king" : {
+        "4" : {
+          "bizAddr" : "10825 Northeast 2nd",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Resale- Second Hand- & Used Merchandise Stores",
+          "bizCity" : "Seattle",
+          "bizEmail" : "",
+          "bizID" : 4,
+          "bizName" : "Pawn X-Change - Bellevue",
+          "bizPhone" : "(425)455-3562",
+          "bizState" : "WA",
+          "bizURL" : "pawnxchange.com",
+          "bizZip" : "98155",
+          "locCounty" : "King",
+          "locLat" : 47.7583,
+          "locLong" : -122.2958
+        }
+      },
+      "whitman" : {
+        "20" : {
+          "bizAddr" : "205 Northeast Whitman Street",
+          "bizCat" : "Thrift Shops",
+          "bizCatSub" : "Used Furniture Dealers",
+          "bizCity" : "Pullman",
+          "bizEmail" : "",
+          "bizID" : 20,
+          "bizName" : "Country Store",
+          "bizPhone" : "(509)334-1300",
+          "bizState" : "WA",
+          "bizURL" : "",
+          "bizZip" : "99163",
+          "locCounty" : "Whitman",
+          "locLat" : 46.7352,
+          "locLong" : -117.1817
+        }
+      }
+    }
+  }
 }
