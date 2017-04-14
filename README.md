@@ -1,0 +1,1 @@
+Python scripts files for generating test csv and json files in support of ThriftStoreLocator project
