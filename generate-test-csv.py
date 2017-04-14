@@ -59,12 +59,12 @@ while (rowIndex <= 2000):
 		state = "CA"
 		if rowIndex % 2 == 0:
 			zipcode = "94132"
-			lat = str(float(37.773972) + float((rowIndex-1) * 0.002))
-			longitude = str(float(-122.431297) - float((rowIndex-1) * 0.002))
+			lat = str(float(37.774972) + float((rowIndex-1) * 0.002))
+			longitude = str(float(-122.419416) - float((rowIndex-1) * 0.002))
 		else:
 			zipcode = "94104"
-			lat = str(float(37.773972) - float((rowIndex-1) * 0.0015))
-			longitude = str(float(-122.431297) + float((rowIndex-1) * 0.0015))
+			lat = str(float(37.774972) - float((rowIndex-1) * 0.0015))
+			longitude = str(float(-122.419416) + float((rowIndex-1) * 0.0015))
 	elif rowIndex <= 1500:
 		city = "Chicago"
 		county = "Cook"
