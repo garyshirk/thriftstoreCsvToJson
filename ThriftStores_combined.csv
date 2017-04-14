@@ -24,7 +24,7 @@ bizID;bizCat;bizCatSub;bizName;bizAddr;bizCity;bizState;bizZip;bizPhone;bizEmail
 303;;;Goodwill;1201 W Washington Blvd;Chicago;IL;60607;;;;41.8828;-87.657;Cook
 304;;;Salvation Army;509 N Union;Chicago;IL;60654;;;;46.288;-96.07821;Cook
 305;;;Goodwill;300 North LaSalle, 4925;Chicago;IL;60654;;;;41.8883;-87.63327;Cook
-306;;;Goodwill;1420 IL-59, Bartlett;;IL;60103;;;;41.9542;-88.2062;Cook
+306;;;Goodwill;1420 IL-59;Bartlett;IL;60103;;;;41.9542;-88.2062;Cook
 307;;;Savers;1231 N Gary Ave;Carol Stream;IL;60188;;;;41.9354;-88.117709;Dupage
 308;;;Goodwill Elgin;260 Randall Rd;Elgin;IL;60123;;;;41.989998;-88.3434799;Kane
 309;;;Goodwill;7777 Miller Rd;Carpentersville;IL;60110;;;;41.121406;-88.3390395;Kane

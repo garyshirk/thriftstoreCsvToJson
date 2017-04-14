@@ -1,1 +1,1 @@
-Python scripts files for generating test csv and json files in support of ThriftStoreLocator project
+Python script files for generating test csv and json files in support of ThriftStoreLocator project
